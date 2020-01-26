@@ -28,8 +28,7 @@ Now draw the route by opening the `config/routes.rb` file and adding the followi
 get 'about', to: 'static#about'
 ````
 
-Let's look at the components that make up this route code:
-
+Let's look at the components that make up this route code: 
 * The HTTP verb - in this case we're using the `get` HTTP verb.
 
 * The path - `'about'` represents the path in the URL bar that the route will be mapped to.
